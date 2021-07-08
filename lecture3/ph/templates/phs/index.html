@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Public Holidays</title>
+    </head>
+    
+    <body>
+        {% if newyear %}
+            <h2>It is New Year</h2>
+        {% elif xmas %}
+            <h2>It is Christmas</h2>
+        {% elif cny %}
+            <h2>It is Chinese New Year</h2>
+        {% elif gfriday %}
+            <h2>It is Good Friday</h2>
+        {% elif lbour %}
+            <h2>It is Labour Day</h2>
+        {% else %}
+            <h1>NO HOLIDAYS FOR U</h1>
+        {% endif %}
+    </body>
+</html>
